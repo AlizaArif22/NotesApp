@@ -1,0 +1,457 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Visual Studio 2022\\NotesApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{785FE0F9-C216-4FBA-BACC-BB3A2B65BB1C}|NotesApp.csproj|e:\\visual studio 2022\\notesapp\\vercel.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{785FE0F9-C216-4FBA-BACC-BB3A2B65BB1C}|NotesApp.csproj|solutionrelative:vercel.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB7758DE-5DC6-4C7E-8816-0C417CC4AD68}|..\\NotesInfrastructure\\NotesInfrastructure.csproj|e:\\visual studio 2022\\notesinfrastructure\\notesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC2EF8B0-DCAD-46E2-90E1-BEE85323EA92}|..\\NotesDomain\\NotesDomain.csproj|e:\\visual studio 2022\\notesdomain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC2EF8B0-DCAD-46E2-90E1-BEE85323EA92}|..\\NotesDomain\\NotesDomain.csproj|e:\\visual studio 2022\\notesdomain\\notes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB7758DE-5DC6-4C7E-8816-0C417CC4AD68}|..\\NotesInfrastructure\\NotesInfrastructure.csproj|e:\\visual studio 2022\\notesinfrastructure\\notesinfrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC2EF8B0-DCAD-46E2-90E1-BEE85323EA92}|..\\NotesDomain\\NotesDomain.csproj|e:\\visual studio 2022\\notesdomain\\paginatedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A89E5794-5CF3-41C9-9BC3-1C6D297A2A88}|..\\NotesApplication\\NotesApplication.csproj|e:\\visual studio 2022\\notesapplication\\notesapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785FE0F9-C216-4FBA-BACC-BB3A2B65BB1C}|NotesApp.csproj|e:\\visual studio 2022\\notesapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785FE0F9-C216-4FBA-BACC-BB3A2B65BB1C}|NotesApp.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A89E5794-5CF3-41C9-9BC3-1C6D297A2A88}|..\\NotesApplication\\NotesApplication.csproj|e:\\visual studio 2022\\notesapplication\\repositories\\noterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A89E5794-5CF3-41C9-9BC3-1C6D297A2A88}|..\\NotesApplication\\NotesApplication.csproj|e:\\visual studio 2022\\notesapplication\\services\\noteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785FE0F9-C216-4FBA-BACC-BB3A2B65BB1C}|NotesApp.csproj|e:\\visual studio 2022\\notesapp\\controllers\\notecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785FE0F9-C216-4FBA-BACC-BB3A2B65BB1C}|NotesApp.csproj|solutionrelative:controllers\\notecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785FE0F9-C216-4FBA-BACC-BB3A2B65BB1C}|NotesApp.csproj|e:\\visual studio 2022\\notesapp\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{785FE0F9-C216-4FBA-BACC-BB3A2B65BB1C}|NotesApp.csproj|solutionrelative:views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785FE0F9-C216-4FBA-BACC-BB3A2B65BB1C}|NotesApp.csproj|e:\\visual studio 2022\\notesapp\\views\\note\\deleteconfirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{785FE0F9-C216-4FBA-BACC-BB3A2B65BB1C}|NotesApp.csproj|solutionrelative:views\\note\\deleteconfirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A89E5794-5CF3-41C9-9BC3-1C6D297A2A88}|..\\NotesApplication\\NotesApplication.csproj|e:\\visual studio 2022\\notesapplication\\genericrepository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785FE0F9-C216-4FBA-BACC-BB3A2B65BB1C}|NotesApp.csproj|e:\\visual studio 2022\\notesapp\\views\\note\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{785FE0F9-C216-4FBA-BACC-BB3A2B65BB1C}|NotesApp.csproj|solutionrelative:views\\note\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785FE0F9-C216-4FBA-BACC-BB3A2B65BB1C}|NotesApp.csproj|e:\\visual studio 2022\\notesapp\\views\\note\\_notespartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{785FE0F9-C216-4FBA-BACC-BB3A2B65BB1C}|NotesApp.csproj|solutionrelative:views\\note\\_notespartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785FE0F9-C216-4FBA-BACC-BB3A2B65BB1C}|NotesApp.csproj|e:\\visual studio 2022\\notesapp\\views\\shared\\_layout1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{785FE0F9-C216-4FBA-BACC-BB3A2B65BB1C}|NotesApp.csproj|solutionrelative:views\\shared\\_layout1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A89E5794-5CF3-41C9-9BC3-1C6D297A2A88}|..\\NotesApplication\\NotesApplication.csproj|e:\\visual studio 2022\\notesapplication\\interface\\inoteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A89E5794-5CF3-41C9-9BC3-1C6D297A2A88}|..\\NotesApplication\\NotesApplication.csproj|e:\\visual studio 2022\\notesapplication\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785FE0F9-C216-4FBA-BACC-BB3A2B65BB1C}|NotesApp.csproj|e:\\visual studio 2022\\notesapp\\views\\note\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{785FE0F9-C216-4FBA-BACC-BB3A2B65BB1C}|NotesApp.csproj|solutionrelative:views\\note\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785FE0F9-C216-4FBA-BACC-BB3A2B65BB1C}|NotesApp.csproj|e:\\visual studio 2022\\notesapp\\views\\note\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{785FE0F9-C216-4FBA-BACC-BB3A2B65BB1C}|NotesApp.csproj|solutionrelative:views\\note\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC2EF8B0-DCAD-46E2-90E1-BEE85323EA92}|..\\NotesDomain\\NotesDomain.csproj|e:\\visual studio 2022\\notesdomain\\notesdomain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB7758DE-5DC6-4C7E-8816-0C417CC4AD68}|..\\NotesInfrastructure\\NotesInfrastructure.csproj|e:\\visual studio 2022\\notesinfrastructure\\migrations\\20250318134920_tablecreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB7758DE-5DC6-4C7E-8816-0C417CC4AD68}|..\\NotesInfrastructure\\NotesInfrastructure.csproj|e:\\visual studio 2022\\notesinfrastructure\\notesdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB7758DE-5DC6-4C7E-8816-0C417CC4AD68}|..\\NotesInfrastructure\\NotesInfrastructure.csproj|e:\\visual studio 2022\\notesinfrastructure\\migrations\\notesdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB7758DE-5DC6-4C7E-8816-0C417CC4AD68}|..\\NotesInfrastructure\\NotesInfrastructure.csproj|e:\\visual studio 2022\\notesinfrastructure\\migrations\\20250318142255_notestable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785FE0F9-C216-4FBA-BACC-BB3A2B65BB1C}|NotesApp.csproj|e:\\visual studio 2022\\notesapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{785FE0F9-C216-4FBA-BACC-BB3A2B65BB1C}|NotesApp.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785FE0F9-C216-4FBA-BACC-BB3A2B65BB1C}|NotesApp.csproj|e:\\visual studio 2022\\notesapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785FE0F9-C216-4FBA-BACC-BB3A2B65BB1C}|NotesApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NoteController.cs",
+              "DocumentMoniker": "E:\\Visual Studio 2022\\NotesApp\\Controllers\\NoteController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NoteController.cs",
+              "ToolTip": "E:\\Visual Studio 2022\\NotesApp\\Controllers\\NoteController.cs",
+              "RelativeToolTip": "Controllers\\NoteController.cs",
+              "ViewState": "AgIAABkBAAAAAAAAAAAAAHYBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T12:34:31.371Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Visual Studio 2022\\NotesApp\\Views\\Note\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Note\\Index.cshtml",
+              "ToolTip": "E:\\Visual Studio 2022\\NotesApp\\Views\\Note\\Index.cshtml",
+              "RelativeToolTip": "Views\\Note\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-21T12:35:22.006Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_NotesPartial.cshtml",
+              "DocumentMoniker": "E:\\Visual Studio 2022\\NotesApp\\Views\\Note\\_NotesPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Note\\_NotesPartial.cshtml",
+              "ToolTip": "E:\\Visual Studio 2022\\NotesApp\\Views\\Note\\_NotesPartial.cshtml",
+              "RelativeToolTip": "Views\\Note\\_NotesPartial.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T14:23:12.068Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "vercel.json",
+              "DocumentMoniker": "E:\\Visual Studio 2022\\NotesApp\\vercel.json",
+              "RelativeDocumentMoniker": "vercel.json",
+              "ToolTip": "E:\\Visual Studio 2022\\NotesApp\\vercel.json",
+              "RelativeToolTip": "vercel.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-15T16:56:10.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NotesInfrastructure.csproj",
+              "DocumentMoniker": "E:\\Visual Studio 2022\\NotesInfrastructure\\NotesInfrastructure.csproj",
+              "RelativeDocumentMoniker": "..\\NotesInfrastructure\\NotesInfrastructure.csproj",
+              "ToolTip": "E:\\Visual Studio 2022\\NotesInfrastructure\\NotesInfrastructure.csproj",
+              "RelativeToolTip": "..\\NotesInfrastructure\\NotesInfrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-02T16:01:12.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NotesApplication.csproj",
+              "DocumentMoniker": "E:\\Visual Studio 2022\\NotesApplication\\NotesApplication.csproj",
+              "RelativeDocumentMoniker": "..\\NotesApplication\\NotesApplication.csproj",
+              "ToolTip": "E:\\Visual Studio 2022\\NotesApplication\\NotesApplication.csproj",
+              "RelativeToolTip": "..\\NotesApplication\\NotesApplication.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-02T16:00:03.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NoteRepository.cs",
+              "DocumentMoniker": "E:\\Visual Studio 2022\\NotesApplication\\Repositories\\NoteRepository.cs",
+              "RelativeDocumentMoniker": "..\\NotesApplication\\Repositories\\NoteRepository.cs",
+              "ToolTip": "E:\\Visual Studio 2022\\NotesApplication\\Repositories\\NoteRepository.cs",
+              "RelativeToolTip": "..\\NotesApplication\\Repositories\\NoteRepository.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAuwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T07:28:01.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\Visual Studio 2022\\NotesApp\\Views\\User\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\Login.cshtml",
+              "ToolTip": "E:\\Visual Studio 2022\\NotesApp\\Views\\User\\Login.cshtml",
+              "RelativeToolTip": "Views\\User\\Login.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACMAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T13:22:52.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "E:\\Visual Studio 2022\\NotesApplication\\GenericRepository\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "..\\NotesApplication\\GenericRepository\\GenericRepository.cs",
+              "ToolTip": "E:\\Visual Studio 2022\\NotesApplication\\GenericRepository\\GenericRepository.cs",
+              "RelativeToolTip": "..\\NotesApplication\\GenericRepository\\GenericRepository.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAiwCcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T07:04:17.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DeleteConfirm.cshtml",
+              "DocumentMoniker": "E:\\Visual Studio 2022\\NotesApp\\Views\\Note\\DeleteConfirm.cshtml",
+              "RelativeDocumentMoniker": "Views\\Note\\DeleteConfirm.cshtml",
+              "ToolTip": "E:\\Visual Studio 2022\\NotesApp\\Views\\Note\\DeleteConfirm.cshtml",
+              "RelativeToolTip": "Views\\Note\\DeleteConfirm.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-13T12:42:27.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NoteService.cs",
+              "DocumentMoniker": "E:\\Visual Studio 2022\\NotesApplication\\Services\\NoteService.cs",
+              "RelativeDocumentMoniker": "..\\NotesApplication\\Services\\NoteService.cs",
+              "ToolTip": "E:\\Visual Studio 2022\\NotesApplication\\Services\\NoteService.cs",
+              "RelativeToolTip": "..\\NotesApplication\\Services\\NoteService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T12:34:31.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "E:\\Visual Studio 2022\\NotesApp\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "E:\\Visual Studio 2022\\NotesApp\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAuwCgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T12:34:31.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PaginatedList.cs",
+              "DocumentMoniker": "E:\\Visual Studio 2022\\NotesDomain\\PaginatedList.cs",
+              "RelativeDocumentMoniker": "..\\NotesDomain\\PaginatedList.cs",
+              "ToolTip": "E:\\Visual Studio 2022\\NotesDomain\\PaginatedList.cs",
+              "RelativeToolTip": "..\\NotesDomain\\PaginatedList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T12:51:04.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_layout1.cshtml",
+              "DocumentMoniker": "E:\\Visual Studio 2022\\NotesApp\\Views\\Shared\\_layout1.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_layout1.cshtml",
+              "ToolTip": "E:\\Visual Studio 2022\\NotesApp\\Views\\Shared\\_layout1.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_layout1.cshtml",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAAANcBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T14:38:41.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Notes.cs",
+              "DocumentMoniker": "E:\\Visual Studio 2022\\NotesDomain\\Notes.cs",
+              "RelativeDocumentMoniker": "..\\NotesDomain\\Notes.cs",
+              "ToolTip": "E:\\Visual Studio 2022\\NotesDomain\\Notes.cs",
+              "RelativeToolTip": "..\\NotesDomain\\Notes.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwBUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T14:48:39.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\Visual Studio 2022\\NotesApp\\Views\\Note\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Note\\Create.cshtml",
+              "ToolTip": "E:\\Visual Studio 2022\\NotesApp\\Views\\Note\\Create.cshtml",
+              "RelativeToolTip": "Views\\Note\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-13T12:41:41.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "E:\\Visual Studio 2022\\NotesApplication\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "..\\NotesApplication\\Services\\UserService.cs",
+              "ToolTip": "E:\\Visual Studio 2022\\NotesApplication\\Services\\UserService.cs",
+              "RelativeToolTip": "..\\NotesApplication\\Services\\UserService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T11:04:00.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "INoteService.cs",
+              "DocumentMoniker": "E:\\Visual Studio 2022\\NotesApplication\\Interface\\INoteService.cs",
+              "RelativeDocumentMoniker": "..\\NotesApplication\\Interface\\INoteService.cs",
+              "ToolTip": "E:\\Visual Studio 2022\\NotesApplication\\Interface\\INoteService.cs",
+              "RelativeToolTip": "..\\NotesApplication\\Interface\\INoteService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwAoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T12:48:04.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\Visual Studio 2022\\NotesApp\\Views\\Note\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Note\\Edit.cshtml",
+              "ToolTip": "E:\\Visual Studio 2022\\NotesApp\\Views\\Note\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Note\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-13T12:42:23.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "NotesDomain.csproj",
+              "DocumentMoniker": "E:\\Visual Studio 2022\\NotesDomain\\NotesDomain.csproj",
+              "RelativeDocumentMoniker": "..\\NotesDomain\\NotesDomain.csproj",
+              "ToolTip": "E:\\Visual Studio 2022\\NotesDomain\\NotesDomain.csproj",
+              "RelativeToolTip": "..\\NotesDomain\\NotesDomain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-13T11:03:59.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20250318134920_TableCreate.cs",
+              "DocumentMoniker": "E:\\Visual Studio 2022\\NotesInfrastructure\\Migrations\\20250318134920_TableCreate.cs",
+              "RelativeDocumentMoniker": "..\\NotesInfrastructure\\Migrations\\20250318134920_TableCreate.cs",
+              "ToolTip": "E:\\Visual Studio 2022\\NotesInfrastructure\\Migrations\\20250318134920_TableCreate.cs",
+              "RelativeToolTip": "..\\NotesInfrastructure\\Migrations\\20250318134920_TableCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T14:22:04.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "NotesDbContextFactory.cs",
+              "DocumentMoniker": "E:\\Visual Studio 2022\\NotesInfrastructure\\NotesDbContextFactory.cs",
+              "RelativeDocumentMoniker": "..\\NotesInfrastructure\\NotesDbContextFactory.cs",
+              "ToolTip": "E:\\Visual Studio 2022\\NotesInfrastructure\\NotesDbContextFactory.cs",
+              "RelativeToolTip": "..\\NotesInfrastructure\\NotesDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T14:22:59.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "NotesDbContextModelSnapshot.cs",
+              "DocumentMoniker": "E:\\Visual Studio 2022\\NotesInfrastructure\\Migrations\\NotesDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "..\\NotesInfrastructure\\Migrations\\NotesDbContextModelSnapshot.cs",
+              "ToolTip": "E:\\Visual Studio 2022\\NotesInfrastructure\\Migrations\\NotesDbContextModelSnapshot.cs",
+              "RelativeToolTip": "..\\NotesInfrastructure\\Migrations\\NotesDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T14:22:11.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20250318142255_NotesTable.cs",
+              "DocumentMoniker": "E:\\Visual Studio 2022\\NotesInfrastructure\\Migrations\\20250318142255_NotesTable.cs",
+              "RelativeDocumentMoniker": "..\\NotesInfrastructure\\Migrations\\20250318142255_NotesTable.cs",
+              "ToolTip": "E:\\Visual Studio 2022\\NotesInfrastructure\\Migrations\\20250318142255_NotesTable.cs",
+              "RelativeToolTip": "..\\NotesInfrastructure\\Migrations\\20250318142255_NotesTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T14:22:08.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Visual Studio 2022\\NotesApp\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "E:\\Visual Studio 2022\\NotesApp\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-22T14:16:39.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Visual Studio 2022\\NotesApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\Visual Studio 2022\\NotesApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T13:49:36.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NotesDbContext.cs",
+              "DocumentMoniker": "E:\\Visual Studio 2022\\NotesInfrastructure\\NotesDbContext.cs",
+              "RelativeDocumentMoniker": "..\\NotesInfrastructure\\NotesDbContext.cs",
+              "ToolTip": "E:\\Visual Studio 2022\\NotesInfrastructure\\NotesDbContext.cs",
+              "RelativeToolTip": "..\\NotesInfrastructure\\NotesDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T13:47:16.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\Visual Studio 2022\\NotesDomain\\User.cs",
+              "RelativeDocumentMoniker": "..\\NotesDomain\\User.cs",
+              "ToolTip": "E:\\Visual Studio 2022\\NotesDomain\\User.cs",
+              "RelativeToolTip": "..\\NotesDomain\\User.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T09:46:29.013Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

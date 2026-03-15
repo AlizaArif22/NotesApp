@@ -1,0 +1,99 @@
+﻿@{
+    Layout = "_layout2";
+}
+@model NotesDomain.User
+@{
+    ViewData["Title"] = "Register";
+}
+
+@* <div class="container mt-5" style="height: 100vh !important;"  >
+    <div class="row justify-content-center" >
+        <div class="col-md-6">
+            <div class="card shadow p-4">
+                <h3 class="text-center mb-4">Register</h3>
+
+                <form asp-controller="User" asp-action="Register" method="post">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Full Name</label>
+                        <input asp-for="Username" class="form-control" required autocomplete="off">
+                        <span asp-validation-for="Username" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input asp-for="Email" type="email" class="form-control" required autocomplete="off">
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Password</label>
+                        <input asp-for="Password" type="password" class="form-control" required autocomplete="new-password">
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+
+                    @if (!ViewData.ModelState.IsValid)
+                    {
+                        <div class="alert alert-danger">
+                            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                            {
+                                <p>@error.ErrorMessage</p>
+                            }
+                        </div>
+                    }
+
+                    <button type="submit" class="btn btn-success w-100">Register</button>
+                </form>
+
+                <div class="text-center mt-3">
+                    <p>Already have an account? <a asp-action="Login" asp-controller="User">Login here</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+ *@
+
+
+<div class="login-form-bg h-100" style="height: 100vh !important;">
+    <div class="container h-100">
+        <div class="row justify-content-center h-100">
+            <div class="col-xl-6">
+                <div class="form-input-content">
+                    <div class="card login-form mb-0">
+                        <div class="card-body pt-5">
+                            <a class="text-center" href="/Note/Create"> <h4>Register</h4></a>
+                            <form class="mt-5 mb-5 login-input " asp-controller="User" asp-action="Register" method="post">
+                                @* <form class="mt-5 mb-5 login-input"> *@
+                                <div class="form-group">
+
+                                    <input  class="form-control" name="username" placeholder="Username" required autocomplete="off">
+                                </div>
+                                <div class="form-group">
+
+                                    <input type="email" class="form-control" name="email" placeholder="Email" required autocomplete="off">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" name="password" placeholder="Password" required autocomplete="new-password">
+                                </div>
+                                @* <a href="/Note/Create" class="btn login-form__btn submit w-100">Sign In</a>
+ *@                              @if (!ViewData.ModelState.IsValid)
+                                {
+                                    <div class="alert alert-danger">
+                                        @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                                        {
+                                            <p>@error.ErrorMessage</p>
+                                        }
+                                    </div>
+                                }
+
+                                <button class="btn login-form__btn submit w-100">Sign In</button>
+                            </form>
+                            <p class="mt-5 login-form__footer">Already have an account? <a href="/User/Login" class="text-primary">Sign Up</a> now</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

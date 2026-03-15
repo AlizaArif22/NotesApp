@@ -1,0 +1,16 @@
+﻿@model NotesDomain.User
+
+@{
+    ViewData["Title"] = "Profile";
+}
+
+<div class="container mt-5">
+    <h2>User Profile</h2>
+    <div class="card p-3">
+        <p><strong>Name:</strong> @Model.Username</p>
+        <p><strong>Email:</strong> @Model.Email</p>
+        <p><strong>Role:</strong> @ViewBag.Role</p>  <!-- Display Role -->
+    </div>
+
+    <a asp-action="LogoutConfirmation" class="btn btn-danger mt-3">Logout</a>
+</div>

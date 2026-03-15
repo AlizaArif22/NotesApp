@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to Alizii Notes </h1>
+    <p>Where you can  <a href="https://learn.microsoft.com/aspnet/core">share your Thoughts</a>.</p>
+</div>

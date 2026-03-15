@@ -1,0 +1,124 @@
+﻿@model IEnumerable<NotesDomain.User>
+<div class="col-lg-12">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Basic Table</h4>
+            <div class="table-responsive">
+                @if (Model != null && Model.Any())
+                {
+                    <table class="table header-border">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">UserName</th>
+                                <th scope="col">Email</th>
+                               
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var user in Model)
+                            {
+                                <tr>
+                                    <th>1</th>
+                                    <td>@user.Username</td>
+                                    <td>@user.Email</td>
+                                   @*  <td>@user.Notes</td> *@
+
+
+                                   
+                                </tr>
+                               
+                               
+                            }
+                        </tbody>
+                            
+                    </table>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="row">
+        
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Line Chart</h4>
+                    <div id="flotLine1" class="flot-chart"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!--  flot-chart js -->
+<script src="~/theme/plugins/flot/js/jquery.flot.min.js"></script>
+<script src="~/theme/plugins/flot/js/jquery.flot.pie.js"></script>
+<script src="~/theme/plugins/flot/js/jquery.flot.resize.js"></script>
+<script src="~/theme/plugins/flot/js/jquery.flot.spline.js"></script>
+<script src="~/theme/plugins/flot/js/jquery.flot.init.js"></script>
+
+<script>
+    var newCust = [
+        [4, 1],
+        [5, 3],
+        [6, 6],
+        [7, 5],
+        [8, 7],
+        [9, 8],
+        [10, 10]
+    ];
+
+        var plot = $.plot($('#flotLine1'), [{
+            data: newCust,
+            label: 'New Customer',
+            color: '#ff5e5e'
+        },
+        {
+            data: retCust,
+            label: 'Returning Customer',
+            color: '#7571F9'
+        }
+    ], {
+        series: {
+            lines: {
+                show: true,
+                lineWidth: 1
+            },
+            shadowSize: 0
+        },
+        points: {
+            show: false,
+        },
+        legend: {
+            noColumns: 1,
+            position: 'nw'
+        },
+        grid: {
+            hoverable: true,
+            clickable: true,
+            borderColor: '#ddd',
+            borderWidth: 0,
+            labelMargin: 5,
+            backgroundColor: 'transparent'
+        },
+        yaxis: {
+            min: 0,
+            max: 15,
+            color: 'transparent',
+            font: {
+                size: 10,
+                color: '#999'
+            }
+        },
+        xaxis: {
+            color: 'transparent',
+            font: {
+                size: 10,
+                color: '#999'
+            }
+        }
+    });
+
+</script>

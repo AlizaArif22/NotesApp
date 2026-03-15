@@ -1,0 +1,13 @@
+﻿@* @{
+    ViewData["Title"] = "Logout Confirmation";
+} *@
+
+<div class="container mt-5 text-center">
+    <h2>Are you sure you want to log out?</h2>
+    <p>If you log out, you will need to sign in again to access your account.</p>
+
+    <form asp-action="Logout" method="post">
+        <button type="submit" class="btn btn-danger">Logout</button>
+        <a asp-action="Profile" class="btn btn-secondary">Cancel</a>
+    </form>
+</div>

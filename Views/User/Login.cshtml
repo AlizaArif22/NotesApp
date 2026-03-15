@@ -1,0 +1,92 @@
+﻿
+@{
+    Layout = "_layout2";
+}
+@model NotesDomain.User
+@{
+    ViewData["Title"] = "Login";
+}
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+<div class="login-form-bg h-100" style="height: 100vh !important;">
+    <div class="container h-100">
+        <div class="row justify-content-center h-100">
+            <div class="col-xl-6">
+                <div class="form-input-content">
+                    <div class="card login-form mb-0">
+                        <div class="card-body pt-5">
+                            <a class="text-center" href="/Note/Create"> <h4>Login</h4></a>
+                            <form class="mt-5 mb-5 login-input " asp-controller="User" asp-action="Login" method="post">
+                            @* <form class="mt-5 mb-5 login-input"> *@
+                                
+                                <div  class="form-group" > 
+                                    
+                                    <input type="email" class="form-control" name="email" placeholder="Email" required autocomplete="off">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" name="password" placeholder="Password" required autocomplete="new-password">
+                                </div>
+                                @* <a href="/Note/Create" class="btn login-form__btn submit w-100">Sign In</a>
+ *@
+                                 <button class="btn login-form__btn submit w-100">Sign In</button> 
+                            </form>
+                            <p class="mt-5 login-form__footer">Dont have account? <a href="/User/Register" class="text-primary">Sign Up</a> now</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@* <div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow p-4">
+                <h3 class="text-center mb-4">Login</h3>
+
+
+
+                <form asp-controller="User" asp-action="Login" method="post">
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" name="email"   required autocomplete="off" >
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" class="form-control" name="password"  required autocomplete="new-password">
+                    </div>
+
+                    @if (!ViewData.ModelState.IsValid)
+                    {
+                        <div class="alert alert-danger">
+                            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                            {
+                                <p>@error.ErrorMessage</p>
+                            }
+                        </div>
+                    }
+
+                    <button type="submit" class="btn btn-primary w-100">Login</button>
+                </form>
+
+                <div class="text-center mt-3">
+                    <p>Don't have an account? <a asp-action="Register" asp-controller="User">Register here</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+ *@
+
+ 
+
+
+

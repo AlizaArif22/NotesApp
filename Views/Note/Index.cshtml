@@ -1,0 +1,228 @@
+﻿@model NotesApp.PaginatedList<DTOs.NoteDTO>
+
+
+	<div id="notesContainer">
+	@await Html.PartialAsync("_NotesPartial", Model)
+	</div>
+
+
+
+<!--DEleteeeee-->
+<div class="modal fade" id="confirm-delete" tabindex="-1" role="dialog" aria-labelledby="deleteLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+
+			<div class="modal-header">
+				<h4 class="modal-title" id="deleteLabel">Confirm Delete</h4>
+				<button type="button" class="close" data-bs-dismiss="modal" aria-hidden="true">&times;</button>
+			</div>
+
+			<div class="modal-body">
+				<div class="alert alert-danger" role="alert">
+					<p>Do you really want to delete <b id="note-title"></b>?</p>
+				</div>
+			</div>
+
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+				<button type="button" class="btn btn-danger" id="confirm-delete-btn">Delete</button>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+	var selectedNoteId = null;
+
+	$(document).on('click', '.delete-btn', function () {
+	  selectedNoteId = $(this).data('id');
+	  var noteTitle = $(this).data('title');
+	  $('#note-title').text(noteTitle);
+	  $('#confirm-delete').modal('show');
+	});
+
+	$('#confirm-delete-btn').click(function () {
+	  if (!selectedNoteId) return;
+
+	  $.ajax({
+		url: '/Note/DeleteConfirmed',
+		type: 'POST',
+		data: { id: selectedNoteId },
+		success: function () {
+		  $('#confirm-delete').modal('hide');
+		  alert('Note deleted successfully.');
+	@* location.reload(); *@
+		  $(`button[data-id="${selectedNoteId}"]`).closest('tr').remove();
+
+		},
+		error: function () {
+		  alert('Error deleting the note.');
+		}
+	  });
+	});
+</script>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+	$(document).ready(function(){
+		$("#searchBtn").click(function(){
+			var query = $("#searchQuery").val();
+
+			$.ajax({
+				url: "/Note/Search",
+				type:"Get",
+				data:{searchTerm:query},
+				 success: function (result) {
+		$('#MyNotesTable tbody').empty();
+		 debugger
+		var body = $('#MyNotesTable tbody');
+
+		// Body
+		for (var d in result) {
+		   var data = result[d];
+		   $('#MyNotesTable tbody').append($('<tr>')
+		   .append($('<td>', { text: data.category }))
+			   .append($('<td>', { text: data.title }))
+			   .append($('<td>', { text: data.tags }))
+			   // .append($('<td>', { text: data.createdDate }))
+			   .append($('<td>', { text: new Date(data.createdDate).toLocaleString() }))
+			   .append($('<td>', { text: data.content }))
+		   )
+		}
+	},
+				// success: function(data){
+				// 	debugger
+				// 	$("#searchResults").text(data);
+				// },
+				error: function(){
+					alert("Error occurred!");
+				}
+			});
+		});
+	});
+
+
+</script>
+
+@* <script>
+		function loadData(page = 1) {
+		const pageSize = 3;
+		const sortOrder = '';
+		const currentFilter = '';
+		const searchString = $('#searchInput').val() || ''; // make sure there's an input with this ID
+		const pageNumber = page;
+
+		$.ajax({
+			url: "/NoteController/Index",
+			type: 'GET',
+			data: { sortOrder, currentFilter, searchString, pageNumber },
+			success: function (response) {
+				const tableBody = $('#MyNotesTable tbody');
+				tableBody.empty();
+
+				response.items.forEach(item => {
+					tableBody.append(`
+						<tr>
+							<td>${item.category}</td>
+							<td>${item.title}</td>
+							<td>${item.tags}</td>
+							<td>${item.createdDate}</td>
+						</tr>
+					`);
+				});
+
+				const totalPages = Math.ceil(response.count / pageSize);
+				const paginationControls = $('#pagination-controls');
+				paginationControls.empty();
+
+				for (let i = 1; i <= totalPages; i++) {
+					paginationControls.append(`
+						<button onclick="loadData(${i})">${i}</button>
+					`);
+				}
+			},
+			error: function () {
+				alert('Error loading data.');
+			}
+		});
+	}
+
+</script> *@
+
+
+@* <script>
+		function loadData(page = 1) {
+		const pageSize = 3;
+		const sortOrder = '';
+		const currentFilter = '';
+		const searchString = $('#searchInput').val() || ''; // make sure there's an input with this ID
+		const pageNumber = page;
+
+		$.ajax({
+			url: "/Note/Search2",
+			type: 'GET',
+			data: { sortOrder, currentFilter, searchString, pageNumber },
+			success: function (response) {
+				const tableBody = $('#MyNotesTable tbody');
+				tableBody.empty();
+
+				response.items.forEach(item => {
+					tableBody.append(`
+						<tr>
+							<td>${item.category}</td>
+							<td>${item.title}</td>
+							<td>${item.tags}</td>
+							<td>${item.createdDate}</td>
+						</tr>
+					`);
+				});
+
+				const totalPages = Math.ceil(response.count / pageSize);
+				const paginationControls = $('#pagination-controls');
+				paginationControls.empty();
+
+				for (let i = 1; i <= totalPages; i++) {
+					paginationControls.append(`
+						<button onclick="loadData(${i})">${i}</button>
+					`);
+				}
+			},
+			error: function () {
+				alert('Error loading data.');
+			}
+		});
+	}
+
+</script> *@
+@section Scripts {
+	<script>
+		$(document).on("click", ".pagination-link", function (e) {
+			e.preventDefault();
+			var page = $(this).data("page");
+
+			if ($(this).hasClass("disabled")) return;
+
+			$.ajax({
+				url: '/Note/Index',
+				type: 'GET',
+				data: {
+					pageNumber: page,
+					sortOrder: '@ViewData["CurrentSort"]',
+				 	currentFilter: '@ViewData["CurrentFilter"]'
+				},
+				success: function (result) {
+					$('#notesContainer').html(result);
+				},
+				error: function () {
+					alert("Failed to load page.");
+				}
+			});
+		});
+	</script>
+
+}
